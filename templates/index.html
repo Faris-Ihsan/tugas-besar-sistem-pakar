@@ -1,12 +1,74 @@
 <!DOCTYPE html>
+{% load staticfiles %}
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sistem Prediksi Covid</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <title>SISKAR</title>
 </head>
+
 <body>
-    <h1>Hello Budak Kampus!!</h1>
+    <!-- This is the header of this web -->
+    <div class="header">
+        <!-- This Is Page Logo-->
+        <div class="header-logo">
+            SISKAR
+        </div>
+        
+        <!-- This Is Header List of The Page-->
+        <div class="header-list">
+            <ul>
+                <li>Tentang COVID</li>
+                <li>Periksa gejala</li>
+                <li>Hubungi kami</li>
+                <li>Developer</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="copy-container">
+            <h1>DIAGNOSIS COVID-19</h1>
+            <h2>Waspada Gejala Awal COVID-19</h2>
+        </div>
+
+        <div class="contents">
+            <h3 class="section-title">Apa Itu COVID?</h3>
+            <p>Penyakit virus corona (COVID-19) adalah penyakit menular yang disebabkan oleh virus corona yang baru-baru ini ditemukan. Sebagian besar orang yang tertular COVID-19 akan mengalami gejala ringan hingga sedang, dan akan pulih tanpa penanganan khusus. Masing-masing orang memiliki respons yang berbeda terhadap COVID-19. Sebagian besar orang yang terpapar virus ini akan mengalami gejala ringan hingga sedang, dan akan pulih tanpa perlu dirawat di rumah sakit.</p>
+            <h3 class="section-title">Gejala - Gejala COVID-19</h3>
+            <p>Gejala Umum</p>
+            <ul>
+                <li>Demam</li>
+                <li>Batuk kering</li>
+                <li>Kelelahan</li>
+            </ul>
+            <br>
+            <p>Gejala Tidak Umum</p>
+            <ul>
+                <li>Rasa nyeri</li>
+                <li>Nyeri tenggorokan</li>
+                <li>Diare</li>
+                <li>Konjungtivitis (Mata Merah)</li>
+                <li>Sakit kepala</li>
+                <li>Hilangnya indera perasa atau penciuman</li>
+                <li>Ruam pada kulit atau perubahan warna pada jari tangan atau kaki</li>
+            </ul>
+        </div>
+
+        <div class="contact-form">
+            <h3 class="section-title">Tes Diagnosis Gejala COVID-19</h3>
+            <p>Email (Wajib Diisi)</p>
+            <p>Pesan (Wajib Diisi)</p>
+            <p>*Bidang wajib diisi.</p>
+        </div>
+    </div>
+
+    <div class="footer">
+
+    </div>
+
+    
 </body>
 </html>
