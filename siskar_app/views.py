@@ -14,7 +14,7 @@ def index(request):
 
         if form.is_valid():
             for i in range(19):
-                a.append(form.cleaned_data['attrib_'+str(i+1)])
+                a.append(int(form.cleaned_data['attrib_'+str(i+1)]))
             print(a)
 
             
