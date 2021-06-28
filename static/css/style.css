@@ -48,6 +48,11 @@ body {
     margin-top: 80px;
 }
 
+.diagnose-form {
+    list-style: none;
+    float: left;
+}
+
 .footer {
     background-color: #ceccf3;
     height: 270px;

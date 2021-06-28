@@ -57,10 +57,10 @@
             </ul>
         </div>
 
-        <div class="contact-form">
+        <div class="diagnose-form">
             <h3 class="section-title">Tes Diagnosis Gejala COVID-19</h3>
             <form method="POST">
-            {{ form.as_p }}
+            {{ form.as_table }}
             {% csrf_token %}
             <input type="submit" class="btn" value="Submit">
             </form>
