@@ -35,6 +35,7 @@ body {
 
 .contents {
     margin-top: 100px;
+
 }
 
 .contents p {
@@ -48,10 +49,6 @@ body {
     margin-top: 80px;
 }
 
-.diagnose-form {
-    list-style: none;
-    float: left;
-}
 
 .footer {
     background-color: #ceccf3;
