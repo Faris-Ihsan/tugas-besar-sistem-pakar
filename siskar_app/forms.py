@@ -18,8 +18,9 @@ class FormName(forms.Form):
     attrib_13 = forms.CharField(label='13. Memiliki sakit Lambung', widget=forms.RadioSelect(choices=CHOICES))
     attrib_14 = forms.CharField(label='14. Sedang dalam perjalanan ke luar kota/negeri', widget=forms.RadioSelect(choices=CHOICES))
     attrib_15 = forms.CharField(label='15. Pernah melakukan kontak dengan pasien COVID', widget=forms.RadioSelect(choices=CHOICES))
-    attrib_16 = forms.CharField(label='16. Melakukan kegiatan di tempat umum', widget=forms.RadioSelect(choices=CHOICES))
-    attrib_17 = forms.CharField(label='17. Ada anggota keluarga yang Melakukan kegiatan di tempat umum?', widget=forms.RadioSelect(choices=CHOICES))
-    attrib_18 = forms.CharField(label='18. Menggunakan Masker', widget=forms.RadioSelect(choices=CHOICES))
-    attrib_19 = forms.CharField(label='19. Rajin menggunakan hand sanitizer?', widget=forms.RadioSelect(choices=CHOICES))
+    attrib_16 = forms.CharField(label='16. Pernah berkumpul di acara besar?', widget=forms.RadioSelect(choices=CHOICES))
+    attrib_17 = forms.CharField(label='17. Melakukan kegiatan di tempat umum', widget=forms.RadioSelect(choices=CHOICES))
+    attrib_18 = forms.CharField(label='18. Ada anggota keluarga yang Melakukan kegiatan di tempat umum?', widget=forms.RadioSelect(choices=CHOICES))
+    attrib_19 = forms.CharField(label='19. Menggunakan Masker', widget=forms.RadioSelect(choices=CHOICES))
+    attrib_20 = forms.CharField(label='20. Rajin menggunakan hand sanitizer?', widget=forms.RadioSelect(choices=CHOICES))
 
