@@ -1,0 +1,10 @@
+{% for message in messages %}
+ <div class="alert alert-warning" role="alert">
+    <h4 class="alert-heading">Anda terdiagnosis <b>{{message}}</b></h4>
+    <p>Web diagnosis ini tidak 100% tepat. Untuk hasil diagnosis lebih baik harap segera lakukan SWAB Test antigen di Rumah Sakit terdekat. <br>
+    <b> Jika mengalami gejala lebih lanjut harap melakukan Isolasi Mandiri atau hubungi Rumah Sakit terdekat</b>
+    </p>
+    <hr>
+    <p class="mb-0">Patuhi protokol kesehatan</p>
+  </div>
+{% endfor %}
