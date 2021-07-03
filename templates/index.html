@@ -21,9 +21,9 @@
         <!-- This Is Header List of The Page-->
         <div class="header-list">
             <ul>
-                <li>Tentang COVID</li>
-                <li>Periksa gejala</li>
-                <li>Hubungi kami</li>
+                <a style="text-decoration: none; color: white;" href="#info-covid"><li>Tentang COVID-19</li></a>
+                <a style="text-decoration: none; color: white;" href="#formulir"><li>Periksa Gejala</li></a>
+                <a style="text-decoration: none; color: white;" href="https://covid19.go.id/"><li>Berita COVID-19</li></a>
                 <li>Developer</li>
             </ul>
         </div>
@@ -35,6 +35,7 @@
             <h2>Waspada Gejala Awal COVID-19</h2>
         </div>
 
+        <section id="info-covid"></section>
         <div class="contents">
             <h3 class="section-title">Apa Itu COVID?</h3>
             <p>Penyakit virus corona (COVID-19) adalah penyakit menular yang disebabkan oleh virus corona yang baru-baru ini ditemukan. Sebagian besar orang yang tertular COVID-19 akan mengalami gejala ringan hingga sedang, dan akan pulih tanpa penanganan khusus. Masing-masing orang memiliki respons yang berbeda terhadap COVID-19. Sebagian besar orang yang terpapar virus ini akan mengalami gejala ringan hingga sedang, dan akan pulih tanpa perlu dirawat di rumah sakit.</p>
@@ -58,12 +59,13 @@
             </ul>
         </div>
 
+        <section id="formulir"></section>
         <div class="diagnose-form">
             <h3 class="section-title">Tes Diagnosis Gejala COVID-19</h3>
             <form method="POST">
+            {% include 'pesan_hasil.html' %}
             {{ form.as_table }}
             {% csrf_token %}
-            {% include 'pesan_hasil.html' %}
             <input type="submit" class="btn btn-primary" value="Submit">
             </form>
         </div>
